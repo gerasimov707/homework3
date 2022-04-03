@@ -15,12 +15,21 @@ public class Main {
 
         //задание 2
         int clientDeviceYear = 2014;
-        if (clientDeviceYear < 2014) {
+        if (clientAn == 1 && clientAn <= 2014) {
+        }
+        System.out.println("ustanovite oblegchenversiy prilozhenia dly android po ssulke");
+        int clientDeviceYear1 = 2015;
+        if (clientAn == 1 && clientAn > 2015) {
+        }
+        System.out.println("ustanovite  prilozhenia dly android po ssulke");
+        if (clientIos == 1 && clientIos <= 2014) {
         }
         System.out.println("ustanovite oblegchenversiy prilozhenia dly ios po ssulke");
-        if (clientDeviceYear > 2015) {
-            System.out.println("ustanovite  prilozhenia dly ios po ssulke");
+        if (clientIos == 1 && clientIos > 2015) {
         }
+        System.out.println("ustanovite  prilozhenia dly ios po ssulke");
+
+
 
 
         // задание 3
